@@ -1,0 +1,29 @@
+.num-count {
+	width: 1.8rem;
+	height: 0.4rem;
+	display: flex;
+	span {
+		flex: 0 0 auto;
+		width: 0.52rem;
+		text-align: center;
+		color: #666;
+		font-weight: bold;
+		border: 1px solid #bbb;
+		&.decrease {
+			border-right: none;
+			background-image: url(./minusN.png);
+			background-repeat: no-repeat;
+			background-size: 60% 10%;
+			background-position: center center;
+		}
+		&.increase {
+			border-left: none;
+			background-image: url(./addN.png);
+			background-repeat: no-repeat;
+			background-size: 60% 60%;
+			background-position: center center;
+		}
+	}
+}
+
+

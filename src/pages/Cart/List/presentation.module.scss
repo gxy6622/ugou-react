@@ -1,0 +1,13 @@
+ul.cart-list {
+	margin: 0.2rem 0;
+	border-top: 1px solid #ddd;
+	li {
+		display: flex;
+		padding: 0.5rem 0.2rem;
+		background: #fff;
+	}
+}
+p.else-cart {
+	margin-top: 1rem;
+	text-align: center;
+}

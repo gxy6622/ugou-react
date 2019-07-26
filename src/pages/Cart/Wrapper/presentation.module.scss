@@ -1,0 +1,14 @@
+.cart-wrapper {
+	width: 100%;
+	height: 100%;
+	.header-wrapper {
+		flex-shrink: 0;
+	}
+	.content-wrapper {
+		flex-grow: 1;
+		overflow: auto;
+	}
+	.footer-wrapper {
+		flex-shrink: 0;
+	}
+}

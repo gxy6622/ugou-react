@@ -1,0 +1,13 @@
+span.checkbox {
+	flex-shrink: 0;
+	align-self: center;
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+	background-image: url(./icon_checkbox_uncheck.png);
+	background-size: 100% 100%;
+	&.checked {
+		background-image: url(./icon_checkbox_check.png);
+		background-size: 100% 100%;
+	}
+}

@@ -1,0 +1,36 @@
+a.avatar-wrapper {
+	flex-shrink: 0;
+	width: 2rem;
+	height: 2rem;
+	margin: 0 0.2rem;
+	img {
+		width: 100%;
+		height: 100%;
+		transform: scale(1);
+		border: 0.02rem solid #ddd;
+	}
+}
+.info {
+	flex-grow: 1;
+	position: relative;
+	margin-left: 0.05rem;
+	a.name {
+		font-size: 0.28rem;
+		color: #333;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		overflow: hidden;
+	}
+	a.price-wrapper {
+		display: block;
+		font-size: 0.28rem;
+		color: #333;
+		margin-top: -0.2rem;
+	}
+	.count-wrapper {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+}

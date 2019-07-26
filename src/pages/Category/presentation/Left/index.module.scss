@@ -1,0 +1,14 @@
+ul.list {
+	li {
+		padding: 0.2rem 0;
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		color: #666;
+		&.active {
+			color: #ff0000;
+			border-right: 1px solid transparent;
+			background: #eee;
+		}
+	}
+}

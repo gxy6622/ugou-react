@@ -1,0 +1,18 @@
+ul.nav {
+	display: flex;
+	height: 1rem;
+	li {
+		display: flex;
+		flex: 1;
+		a {
+			flex: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			img {
+				width: 50%;
+			}
+		}
+	}
+}

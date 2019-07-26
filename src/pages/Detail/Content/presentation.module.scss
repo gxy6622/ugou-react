@@ -1,0 +1,56 @@
+.swiper-container {
+	padding: 0 0.2rem;
+	background: #fff;
+	ul.swiper-wrapper {
+		margin-left: 1.2rem;
+		div {
+			overflow: hidden;
+		}
+		li {
+			img {
+				width: 5.2rem;
+				height: 5.2rem;
+			}
+		}
+		ul {
+			bottom: 20px;
+			left: -60px;
+		}
+	}
+	p.name {
+		font-size: 28px;
+		color: #666;
+		margin-bottom: 0.2rem;
+	}
+	i {
+		font-style: normal;
+		&.dec {
+			font-size: 28px;
+			font-weight: bold;
+			color: #ff0000;
+		}
+		&.dect {
+			font-size: 28px;
+			color: #666;
+			text-decoration: line-through;
+			
+		}
+		span.price {
+			font-size: 48px;
+			font-weight: bold;
+			color: #ff0000;
+		}
+		span.old-price {
+			font-size: 28px;
+			color: #666;
+			text-decoration: line-through;
+		}
+	}
+}
+.slick-slider {
+	ul.slick-dots {
+		position: relative;
+		bottom: 20px;
+		left: -60px;
+	}
+}

@@ -1,0 +1,39 @@
+ul.detail-footer {
+	display: flex;
+	height: 100%;
+	li {
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		&:nth-child(3) {
+			flex-grow: 2;
+			background: #ffbc00;
+			a {
+				color: white;
+				font-size: 0.32rem;
+			}
+		}
+		&:nth-child(4) {
+			flex-grow: 2;
+			background: #ff3300;
+			a {
+				color: white;
+				font-size: 0.32rem;
+			}
+		}
+		a {
+			display: flex;
+			flex: auto;
+			flex-direction: column;
+			img {
+				width: 0.42rem;
+				height: 0.36rem;
+			}
+			span.color {
+				color: #666;
+				font-size: 24px;
+			}
+		}
+	}
+}

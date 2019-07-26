@@ -1,0 +1,42 @@
+.footer {
+	height: 1rem;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 0.02rem solid #ddd;
+	.all-wrapper {
+		display: flex;
+		align-items: center;
+		font-size: 0.28rem;
+		margin-left: 0.2rem;
+		span.remove {
+			display: flex;
+			margin-left: 0.5rem;
+			align-items: center;
+			img {
+				width: 30%;
+				height: 30%;
+			}
+		}
+	}
+	.total-price-wrapper {
+		flex-grow: 1;
+		padding-right: 0.2rem;
+		text-align: right;
+		font-size: 0.28rem;
+		em {
+			font-style: normal;
+			color: rgb(191, 17, 17);
+		}
+	}
+	button {
+		width: 2.5rem;
+		height: 100%;
+		background-color: #bf1111;
+		color: white;
+		font-size: 0.32rem;
+		outline: none;
+		border: none;
+	}
+}
